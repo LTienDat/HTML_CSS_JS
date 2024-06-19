@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dadada;
+    border: 1px solid black;
+    display: flex;
+
+}
+.wrapper{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.images{
+    width: 22%;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.images img{
+    width: 400px;
+    height: 400px;
+}
